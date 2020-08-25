@@ -1,12 +1,18 @@
 # Speech Emotion Recognition using machine learning
 --------------
 ![python-mini-project-speech-emotion-recognition-1280x720](https://user-images.githubusercontent.com/39909903/91180489-9fe39400-e69c-11ea-9968-9adf6741d595.jpg)
+
+----------------
 ## Overview:
-This project is completely based on  machine learning and deep learning where we train the models with RAVDESS Dataset which consists of audio files which are labelled with basic emotions.
-This project is not just about to predict emotion based on the speech. and also to perform some analytical research by applying different machine learning algorithms and neural networks with different architectures.Finally  compare and analyse their results and to get beautiful insights.
+* #### This project is completely based on  machine learning and deep learning where we train the models with RAVDESS Dataset which consists of audio files which are labelled with basic emotions.
+* #### This project is not just about to predict emotion based on the speech. and also to perform some analytical research by applying different machine learning algorithms and neural networks with different architectures.Finally  compare and analyse their results and to get beautiful insights.
+
+---------------------
 
 ## Intro ..
 As human beings speech is amongst the most natural way to express ourselves.As emotions play a vital role in communication, the detection and analysis of the same is of vital importance in today’s digital world of remote communication. Emotion detection is a challenging task, because emotions are subjective. There is no common consensus on how to measure or categorize them.
+
+----------
 
 ### check out my [Medium blog](https://medium.com/@prudhvi.gnv/as-human-beings-speech-is-amongst-the-most-natural-way-to-express-ourselves-as-8fc38ebe1c44) for quick intuition and understanding
 
@@ -30,16 +36,22 @@ The models which were discussed in the repository are MLP,SVM,Decision Tree,CNN,
    - ### mlp_classifier_for_SER.py        - Contains mlp model code
    - ### SER_using_ML_algorithms.py  - Contains SVM,randomforest,Decision tree Models.
    - ### Speech_Emotion_Recognition_using_CNN.ipynb - Consists of CNN-1d model
+   <br>
    
-<b>NOTE :</b> Remaining .ipynb files were same as above files but shared from google colab.
+<b>NOTE :</b>  Remaining .ipynb files were same as above files but shared from google colab.
 -----------------
 
 
 ## Dataset Source - RAVDESS
+<br>
 
 In this project, I use  <a href="https://zenodo.org/record/1188976#.Xl-poCEzZ0w" > RAVDESS</a> dataset to train. 
+<br>
 
 ![s1](https://user-images.githubusercontent.com/39909903/91179186-0798df80-e69b-11ea-824a-f2f65a7c082a.jpg)
+
+
+<br>
 You can find this dataset in kaggle or click on below link. <br>
 https://www.kaggle.com/uwrfkaggler/ravdess-emotional-speech-audio
 <br>
@@ -49,13 +61,14 @@ https://www.kaggle.com/uwrfkaggler/ravdess-emotional-speech-audio
 This dataset was chosen because it consists of speech and song files classified by 247 untrained Americans to eight different emotions at two intensity levels: Calm, Happy, Sad, Angry, Fearful, Disgust, and Surprise, along with a baseline of Neutral for each actor.
 
 <i>
-   **protip** : if you are using google colabs. Use kaggle API to extract data from kaggle with super fast and with super ease :) </i>
+   <b>protip <b/>: if you are using google colabs. Use kaggle API to extract data from kaggle with super fast and with super ease :) </i>
 
     
     
     --------------------
    
  ## Data preprocessing
+ <br>
  The heart of this project lies in preprocessing audio files. If you are able to do it . 70 % of project is already done.
  We take benefit of two packages which makes our task easier. 
   - ### LibROSA - for processing and extracting features from the audio file.
@@ -74,11 +87,13 @@ Features supported:
 In this project, code related to preprocessing the dataset is written in two functions.
 - load_data()
 - extract_features()
+<br>
 
 
 
 load_data() is used to traverse every file in a directory and we extract features from them and we prepare input and output data for mapping and feed to machine learning algorithms.
 and finally, we split the dataset into 80% training and 20% testing.
+<br>
 
 ```python
 def load_data(test_size=0.2):
@@ -105,7 +120,8 @@ def load_data(test_size=0.2):
   ```
  
  
- Below is the code snippet to extract features from each file.
+
+<br>Below is the code snippet to extract features from each file.
   ```python
   
 def extract_feature(file_name, **kwargs):
@@ -152,36 +168,43 @@ def extract_feature(file_name, **kwargs):
    Let's drive further into the project ..
    --------
 ## Training and Analysis:
+<br>
 
 ### Traditional Machine Learning Models:
 Performs different traditional algorithms such as -Decision Tree, SVM, Random forest .
 
- Refer [SER_using_ML_algorithms.py](https://github.com/PrudhviGNV/SpeechEmotionRecognization/blob/master/SER%20using%20ML%20algorithms.py) or [Speech Emotion Recognition using ML - SVM, DT, Random Forest.ipynb](https://github.com/PrudhviGNV/SpeechEmotionRecognization/blob/master/Speech%20Emotion%20Recognition%20using%20ML%20-%20SVM%2C%20DT%2C%20Random%20Forest.ipynb)
+ Refer <br>
+ - [SER_using_ML_algorithms.py](https://github.com/PrudhviGNV/SpeechEmotionRecognization/blob/master/SER%20using%20ML%20algorithms.py) or 
+ - [Speech Emotion Recognition using ML - SVM, DT, Random Forest.ipynb](https://github.com/PrudhviGNV/SpeechEmotionRecognization/blob/master/Speech%20Emotion%20Recognition%20using%20ML%20-%20SVM%2C%20DT%2C%20Random%20Forest.ipynb)
  
  Finds that these algorithms don’t give satisfactory results. So Deep Learning comes into action.
 ### Deep Learning:
 implements classical neural network architecture such as mlp 
-Refer [mlp classifier for SER.py](https://github.com/PrudhviGNV/SpeechEmotionRecognization/blob/master/mlp%20classifier%20for%20SER.py) or [Speech Emotion Recognition using MLP.ipynb](https://github.com/PrudhviGNV/SpeechEmotionRecognization/blob/master/Speech%20Emotion%20Recognition%20using%20MLP.ipynb) 
+Refer <br>
+- [mlp classifier for SER.py](https://github.com/PrudhviGNV/SpeechEmotionRecognization/blob/master/mlp%20classifier%20for%20SER.py) or 
+- [Speech Emotion Recognition using MLP.ipynb](https://github.com/PrudhviGNV/SpeechEmotionRecognization/blob/master/Speech%20Emotion%20Recognition%20using%20MLP.ipynb) 
 
 Found that Deep learning algorithms like mlp tends to overfit to the data. So the preferred neural network is CNN which is a game changer in many fields and applications.
 Wants to perform some analysis to find the best CNN architecture for available dataset.
 Here CNN with different architectures is trained against the dataset and the accuracy is recorded.
 Here every architecture has same configuration and is trained to 500 epochs.
 
-Refer [Speech Emotion Recognition using CNN.ipynb](https://github.com/PrudhviGNV/SpeechEmotionRecognization/blob/master/Speech%20Emotion%20Recognition%20using%20CNN.ipynb)
+Refer <br>
+- [Speech Emotion Recognition using CNN.ipynb](https://github.com/PrudhviGNV/SpeechEmotionRecognization/blob/master/Speech%20Emotion%20Recognition%20using%20CNN.ipynb)
 
 ### Visualization.
 for better understanding about data and also for  visualizing waveform and spectogram of audio files.
-Refer [emotion_spectogram_CNN_2D.ipynb](https://github.com/PrudhviGNV/SpeechEmotionRecognization/blob/master/emotion_spectogram_CNN_2D.ipynb)
+Refer <br>
+- [emotion_spectogram_CNN_2D.ipynb](https://github.com/PrudhviGNV/SpeechEmotionRecognization/blob/master/emotion_spectogram_CNN_2D.ipynb)
 
 
-
+----------------
 
 ## Conclusion and Analysis : 
- - Neural networks performs better than traditional classical machine learning models in maximun cases ( by compare metrics) 
- - Since Deep learning models are data hunger .. They tend overfit the training data.  (if we keep on training the model. we get 95% +  accuracy :) )
- - CNN architectures performs better than traditional neural network architectures. (cnn in most cases perform better than mlp under same configuration)
- - CNN with different architectures with same configuration , with same learning rate, with same number of epochs  also have vast difference in the accuracy (from [Speech_Emotion_Recognition_using_CNN.ipynb](https://github.com/PrudhviGNV/SpeechEmotionRecognization/blob/master/Speech%20Emotion%20Recognition%20using%20CNN.ipynb) )
+ - #### Neural networks performs better than traditional classical machine learning models in maximun cases ( by compare metrics) 
+ - #### Since Deep learning models are data hunger .. They tend overfit the training data.  (if we keep on training the model. we get 95% +  accuracy :) )
+ - #### CNN architectures performs better than traditional neural network architectures. (cnn in most cases perform better than mlp under same configuration)
+ - #### CNN with different architectures with same configuration , with same learning rate, with same number of epochs  also have vast difference in the accuracy (from [Speech_Emotion_Recognition_using_CNN.ipynb](https://github.com/PrudhviGNV/SpeechEmotionRecognization/blob/master/Speech%20Emotion%20Recognition%20using%20CNN.ipynb) )
 
    
  
