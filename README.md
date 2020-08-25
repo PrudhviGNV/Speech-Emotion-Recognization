@@ -55,6 +55,7 @@ In this project, I use  <a href="https://zenodo.org/record/1188976#.Xl-poCEzZ0w"
 You can find this dataset in kaggle or click on below link. <br>
 https://www.kaggle.com/uwrfkaggler/ravdess-emotional-speech-audio
 <br>
+<br>
 
 
 2452 audio files, with 12 male speakers and 12 Female speakers, the lexical features (vocabulary) of the utterances are kept constant by speaking only 2 statements of equal lengths in 8 different emotions by all speakers.
@@ -63,9 +64,7 @@ This dataset was chosen because it consists of speech and song files classified 
 <i>
    <b>protip <b/>: if you are using google colabs. Use kaggle API to extract data from kaggle with super fast and with super ease :) </i>
 
-    
-    
-    --------------------
+--------------
    
  ## Data preprocessing
  <br>
@@ -74,7 +73,7 @@ This dataset was chosen because it consists of speech and song files classified 
   - ### LibROSA - for processing and extracting features from the audio file.
   - ### soundfile - to read and write audio files in the storage.
   
-  The main story in preprocessing audio files is to extract features from them.
+The main story in preprocessing audio files is to extract features from them.
   
 Features supported:
 - MFCC (mfcc)
