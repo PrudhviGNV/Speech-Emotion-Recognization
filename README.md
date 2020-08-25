@@ -4,7 +4,7 @@
 
 ----------------
 ## Overview:
-* #### This project is completely based on  machine learning and deep learning where we train the models with RAVDESS Dataset which consists of audio files which are labelled with basic emotions.
+*  This project is completely based on  machine learning and deep learning where we train the models with RAVDESS Dataset which consists of audio files which are labelled with basic emotions.
 * #### This project is not just about to predict emotion based on the speech. and also to perform some analytical research by applying different machine learning algorithms and neural networks with different architectures.Finally  compare and analyse their results and to get beautiful insights.
 
 ---------------------
@@ -63,6 +63,7 @@ This dataset was chosen because it consists of speech and song files classified 
 
 <i>
    <b>protip <b/>: if you are using google colabs. Use kaggle API to extract data from kaggle with super fast and with super ease :) </i>
+
 
 --------------
    
@@ -198,6 +199,7 @@ Refer <br>
 
 
 ----------------
+---------------
 
 ## Conclusion and Analysis : 
  - #### Neural networks performs better than traditional classical machine learning models in maximun cases ( by compare metrics) 
@@ -208,7 +210,14 @@ Refer <br>
    
  
  
+ -------------
+ --------------
+ 
 ## Hope you like this project :)
+
+-----------
+## LICENSE:
+[MIT](https://github.com/PrudhviGNV/SpeechEmotionRecognization/blob/master/LICENSE)
  
  
 
