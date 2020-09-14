@@ -1,4 +1,6 @@
 # Speech Emotion Recognition using machine learning
+[![LICENCE.md](https://img.shields.io/github/license/PrudhviGNV/py-automl)](https://github.com/PrudhviGNV/py-automl/blob/master/LICENCE.md)[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/PrudhviGNV)[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/PrudhviGNV/open-source-badges/)
+[![Awesome Badges](https://img.shields.io/badge/badges-awesome-green.svg)](https://github.com/PrudhviGNV/badges)<br>
 --------------
 ![python-mini-project-speech-emotion-recognition-1280x720](https://user-images.githubusercontent.com/39909903/91180489-9fe39400-e69c-11ea-9968-9adf6741d595.jpg)
 
@@ -222,6 +224,11 @@ Refer <br>
 -----------
 ## LICENSE:
 [MIT](https://github.com/PrudhviGNV/SpeechEmotionRecognization/blob/master/LICENSE)
+
+ --------
+## Contact:
+<a href="https://www.linkedin.com/in/prudhvignv"><img src="https://github.com/PrudhviGNV/PrudhviGNV/blob/master/logos/linkedin.png" width="40" /> </a>  <a href="https://github.com/PrudhviGNV"><img src="https://github.com/PrudhviGNV/PrudhviGNV/blob/master/logos/github-logo.png" width="40" /> </a>  <a href="https://www.facebook.com/prudhvi.gnv/"><img src="https://github.com/PrudhviGNV/PrudhviGNV/blob/master/logos/facebook.png" width="40" /> </a>  <a href="mailto:prudhvi.gnv@gmail.com"><img src="https://github.com/PrudhviGNV/PrudhviGNV/blob/master/logos/google-plus.png" width="40" /> </a>  <a
+ href="https://www.instagram.com/prudhvi_gnv"><img src="https://github.com/PrudhviGNV/PrudhviGNV/blob/master/logos/instagram.png" width="40" /> </a><a href="https://prudhvignv.github.io"><img src="https://github.com/PrudhviGNV/PrudhviGNV/blob/master/logos/home.png" width="40" /></a>
  
  
 
