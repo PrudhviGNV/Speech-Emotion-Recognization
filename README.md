@@ -63,9 +63,13 @@ https://www.kaggle.com/uwrfkaggler/ravdess-emotional-speech-audio
 2452 audio files, with 12 male speakers and 12 Female speakers, the lexical features (vocabulary) of the utterances are kept constant by speaking only 2 statements of equal lengths in 8 different emotions by all speakers.
 This dataset was chosen because it consists of speech and song files classified by 247 untrained Americans to eight different emotions at two intensity levels: Calm, Happy, Sad, Angry, Fearful, Disgust, and Surprise, along with a baseline of Neutral for each actor.
 
+<i>
+   <b>protip <b/>: if you are using google colabs. Use kaggle API to extract data from kaggle with super fast and with super ease :) </i>
+
 
 
 --------------
+
  ## Data preprocessing:
  
  The heart of this project lies in preprocessing audio files. If you are able to do it . 70 % of project is already done.
