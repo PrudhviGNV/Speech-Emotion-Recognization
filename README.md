@@ -69,7 +69,8 @@ This dataset was chosen because it consists of speech and song files classified 
 
 
 
-## Data preprocessing 
+## Data preprocessing :
+<p>
  The heart of this project lies in preprocessing audio files. If you are able to do it . 70 % of project is already done.
  We take benefit of two packages which makes our task easier. 
  -  <B>LibROSA <B>- for processing and extracting features from the audio file.
@@ -168,6 +169,7 @@ def extract_feature(file_name, **kwargs):
    
    ```
    Let's drive further into the project ..
+   </p>
    
    --------
    
