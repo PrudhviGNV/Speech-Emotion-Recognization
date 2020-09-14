@@ -93,7 +93,7 @@ Features supported:
 In this project, code related to preprocessing the dataset is written in two functions.
 - load_data()
 - extract_features()
-<br>
+
 
 
 
@@ -128,6 +128,7 @@ def load_data(test_size=0.2):
  
 
 <br>Below is the code snippet to extract features from each file.
+
   ```python
   
 def extract_feature(file_name, **kwargs):
@@ -172,9 +173,12 @@ def extract_feature(file_name, **kwargs):
    
    ```
    Let's drive further into the project ..
+   
    --------
+   
 ## Training and Analysis:
-<br>
+
+
 
 ### Traditional Machine Learning Models:
 Performs different traditional algorithms such as -Decision Tree, SVM, Random forest .
