@@ -67,9 +67,7 @@ This dataset was chosen because it consists of speech and song files classified 
    <b>protip <b/>: if you are using google colabs. Use kaggle API to extract data from kaggle with super fast and with super ease :) </i>
 
 
-
-
-## Data preprocessing :
+<H1>Data preprocessing : </H2>
 <p>
  The heart of this project lies in preprocessing audio files. If you are able to do it . 70 % of project is already done.
  We take benefit of two packages which makes our task easier. 
